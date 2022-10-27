@@ -1,0 +1,32 @@
+.todo-footer-container {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+}
+
+.todo-menus{
+  cursor: pointer;
+  background-color: transparent;
+  color: #777;
+  font-size: 17px;
+  font-weight: 200;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius:8px;
+}
+
+.active, .todo-menus button:hover {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+}
+
+.todo-count {
+  color: #777;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+}
